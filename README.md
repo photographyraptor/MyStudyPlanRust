@@ -135,47 +135,296 @@ Implementación de una lista enlazada en Rust siguiendo las reglas de propiedad
 
 >13 Borrowing and References
 
+Implementar un árbol binario de búsqueda en Rust utilizando borrowing y references para evitar la necesidad de utilizar owned values.
+
+- Definir la estructura del árbol binario de búsqueda en Rust utilizando referencias y borrowing para almacenar los nodos y las referencias a otros nodos.
+- Implementar métodos para insertar y eliminar nodos del árbol binario de búsqueda, asegurándose de que se respeten las reglas del árbol.
+- Implementar un método para buscar un valor en el árbol binario de búsqueda utilizando borrowing y referencias para evitar la necesidad de copiar valores.
+- Escribir pruebas unitarias para asegurarse de que el árbol binario de búsqueda funciona correctamente y que no hay problemas de ownership.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+
 >14 Lifetimes
+
+Implementar una aplicación de chat en línea en Rust que utilice lifetimes para gestionar la vida útil de las conexiones de red.
+
+- Definir la estructura de datos para almacenar la información de los usuarios y las conexiones de red utilizando lifetimes para gestionar la vida útil de las referencias.
+- Implementar un servidor de chat que escuche las conexiones de red entrantes y permita a los usuarios enviar y recibir mensajes en tiempo real.
+- Utilizar lifetimes para asegurarse de que las referencias a los usuarios y las conexiones de red se eliminan correctamente cuando se cierra una conexión o se desconecta un usuario.
+- Implementar un cliente de chat que permita a los usuarios conectarse al servidor y enviar y recibir mensajes.
+- Utilizar lifetimes para asegurarse de que las referencias a los usuarios y las conexiones de red se gestionan correctamente en el cliente de chat.
+- Escribir pruebas unitarias para asegurarse de que el servidor y el cliente de chat funcionan correctamente y que no hay problemas con las referencias.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 
 >15 References
 
+Implementar un programa de procesamiento de imágenes en Rust que utilice references para evitar la necesidad de copiar datos de imagen.
+
+- Implementar una estructura de datos para representar imágenes en Rust utilizando referencias para los datos de píxeles.
+- Implementar funciones para cargar imágenes desde archivos y para guardar imágenes en archivos utilizando referencias para evitar la copia de datos de imagen.
+- Implementar funciones para procesar imágenes, como rotar, escalar o aplicar filtros a los píxeles, utilizando referencias para evitar la copia de datos de imagen.
+- Escribir pruebas unitarias para asegurarse de que las funciones de procesamiento de imágenes funcionan correctamente y que no hay problemas con las referencias.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Implementar una interfaz de línea de comandos para permitir a los usuarios cargar y guardar imágenes y aplicar operaciones de procesamiento de imágenes.
+- Utilizar referencias para evitar la copia de datos de imagen en la interfaz de línea de comandos y asegurarse de que las referencias se gestionen correctamente.
+- Añadir opciones de configuración para permitir a los usuarios especificar el formato de archivo de entrada y salida, así como los parámetros de procesamiento de imágenes.
+
 >16 Methods
+
+Implementar una biblioteca de matrices en Rust que utilice methods para realizar operaciones matemáticas.
+
+- Definir una estructura de datos para matrices en Rust que permita almacenar matrices de diferentes tamaños y tipos de datos.
+- Implementar métodos para realizar operaciones matemáticas en matrices, como suma, resta, multiplicación y transposición, utilizando la sobrecarga de operadores y la sintaxis de methods en Rust.
+- Escribir pruebas unitarias para asegurarse de que los métodos de operaciones matemáticas en matrices funcionan correctamente.
+- Implementar métodos adicionales para resolver sistemas de ecuaciones lineales, calcular valores propios y vectores propios y realizar descomposiciones de matrices.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Implementar una interfaz de usuario para permitir a los usuarios crear y manipular matrices utilizando los métodos implementados en la biblioteca.
+- Utilizar métodos para realizar operaciones matemáticas en matrices en la interfaz de usuario y asegurarse de que los métodos se gestionen correctamente.
 
 >17 Modules
 
+Crear una aplicación de línea de comandos en Rust para gestionar una lista de tareas que utilice módulos para organizar el código.
+
+- Definir una estructura de datos para representar una tarea y una lista de tareas en Rust.
+- Crear un módulo para la lógica de la lista de tareas que incluya funciones para añadir, eliminar y modificar tareas.
+- Crear un módulo para la interfaz de usuario que incluya funciones para mostrar la lista de tareas, solicitar la entrada del usuario y mostrar mensajes de error.
+- Implementar la aplicación de línea de comandos utilizando los módulos definidos, utilizando la herramienta de análisis de argumentos de Rust (clap) para procesar los argumentos de línea de comandos.
+- Escribir pruebas unitarias para asegurarse de que las funciones de la lista de tareas funcionan correctamente y que no hay problemas con los módulos.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Añadir opciones de configuración para permitir a los usuarios especificar la ubicación del archivo de la lista de tareas y el formato de salida de la lista de tareas.
+- Utilizar módulos para organizar el código de la aplicación de línea de comandos y asegurarse de que los módulos se gestionen correctamente.
+
 >18 Stack vs. Heap
+
+Implementar una aplicación de procesamiento de imágenes en Rust que demuestre la diferencia entre el uso de la pila (stack) y el montón (heap) para almacenar datos de imagen.
+
+- Definir una estructura de datos para representar una imagen en Rust que permita almacenar datos de píxeles y metadatos de imagen, como la altura, el ancho y el formato de color.
+- Implementar un algoritmo para cargar una imagen desde un archivo y almacenarla en la pila o en el montón, según la elección del usuario.
+- Implementar métodos para procesar imágenes, como cambiar el tamaño, ajustar el brillo y el contraste y aplicar filtros, utilizando tanto la pila como el montón para almacenar los datos de la imagen.
+- Escribir pruebas unitarias para asegurarse de que los métodos de procesamiento de imágenes funcionan correctamente y de que no hay problemas con la asignación de memoria en la pila o el montón.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Implementar una interfaz de usuario para permitir a los usuarios cargar, procesar y guardar imágenes utilizando la aplicación de procesamiento de imágenes.
+- Utilizar tanto la pila como el montón para almacenar los datos de la imagen en la interfaz de usuario y asegurarse de que la aplicación gestione correctamente la asignación de memoria en la pila y el montón.
+- Comparar la velocidad y el uso de memoria de la pila y el montón para almacenar datos de imagen y proporcionar información al usuario sobre cuál opción es la mejor para su caso de uso.
 
 >19 Ownership and Borrowing
 
+Crear una aplicación de gestión de inventario en Rust que demuestre el uso de la propiedad (ownership) y préstamos (borrowing) para gestionar los datos.
+
+- Definir una estructura de datos para representar un artículo de inventario, incluyendo información como el nombre, la descripción, el precio y la cantidad disponible.
+- Crear un módulo para la gestión de inventario que incluya funciones para añadir, eliminar y modificar artículos.
+- Implementar una función de búsqueda de artículos que permita a los usuarios buscar artículos por nombre, descripción o precio.
+- Crear un módulo para la interfaz de usuario que incluya funciones para mostrar la lista de artículos, solicitar la entrada del usuario y mostrar mensajes de error.
+- Implementar la aplicación utilizando el modelo de propiedad y préstamos de Rust, asegurándose de que los datos se gestionan correctamente y se liberan correctamente.
+- Escribir pruebas unitarias para asegurarse de que las funciones de gestión de inventario funcionan correctamente y que no hay problemas con la propiedad o préstamo de datos.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Añadir opciones de configuración para permitir a los usuarios especificar la ubicación del archivo de inventario y el formato de salida de la lista de artículos.
+- Utilizar los conceptos de propiedad y préstamo de Rust para gestionar los datos en la interfaz de usuario y asegurarse de que la aplicación gestione correctamente la asignación y liberación de memoria.
+
 >20 Lifetime Annotations
+
+Crear un programa en Rust que demuestre el uso de las anotaciones de tiempo de vida (lifetime annotations) para gestionar correctamente la duración de los datos.
+
+- Definir una estructura de datos para representar un árbol binario, incluyendo los campos para almacenar el valor y los nodos izquierdo y derecho.
+- Crear una función para insertar un valor en el árbol, utilizando las anotaciones de tiempo de vida para asegurarse de que los datos se gestionan correctamente.
+- Implementar una función para recorrer el árbol en orden, utilizando las anotaciones de tiempo de vida para gestionar correctamente la duración de los datos.
+- Crear un módulo para la interfaz de usuario que incluya funciones para mostrar el árbol, solicitar la entrada del usuario y mostrar mensajes de error.
+- Implementar la aplicación utilizando las anotaciones de tiempo de vida de Rust, asegurándose de que los datos se gestionan correctamente y se liberan correctamente.
+- Escribir pruebas unitarias para asegurarse de que las funciones de inserción y recorrido del árbol funcionan correctamente y que no hay problemas con la duración de los datos.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Añadir opciones de configuración para permitir a los usuarios especificar el número de nodos en el árbol y el rango de valores posibles para los nodos.
+- Utilizar las anotaciones de tiempo de vida de Rust para gestionar la duración de los datos en la interfaz de usuario y asegurarse de que la aplicación gestione correctamente la asignación y liberación de memoria.
 
 >21 Memory Safety
 
+Crear un programa en Rust que demuestre el uso de las características de seguridad de memoria de Rust para prevenir errores comunes de programación.
+
+- Definir una estructura de datos para representar un juego de Tic Tac Toe, incluyendo los campos para almacenar el estado del tablero y los jugadores.
+- Implementar una función para comprobar si un jugador ha ganado el juego, utilizando las características de seguridad de memoria de Rust para evitar errores comunes, como el acceso a índices de matriz fuera de rango.
+- Crear una función para permitir que un jugador realice una jugada en el tablero, utilizando las características de seguridad de memoria de Rust para evitar errores comunes, como la escritura en memoria no asignada.
+- Implementar una función para comprobar si el juego ha terminado en empate, utilizando las características de seguridad de memoria de Rust para evitar errores comunes, como la comparación de valores no inicializados.
+- Crear un módulo para la interfaz de usuario que incluya funciones para mostrar el tablero, solicitar la entrada del usuario y mostrar mensajes de error.
+- Implementar la aplicación utilizando las características de seguridad de memoria de Rust, asegurándose de que el programa sea seguro para su uso y no tenga errores comunes de programación.
+- Escribir pruebas unitarias para asegurarse de que las funciones de comprobación de ganador, de comprobación de empate y de realización de jugadas funcionen correctamente y que el programa sea seguro para su uso.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Añadir opciones de configuración para permitir a los usuarios especificar el tamaño del tablero y el número de jugadores. Utilizar las características de seguridad de memoria de Rust para asegurarse de que la aplicación gestione correctamente la asignación y liberación de memoria.
+
 >22 Traits and Implementations
+
+Crear una aplicación en Rust que utilice traits e implementaciones para definir diferentes tipos de vehículos y sus comportamientos.
+
+- Crear un trait llamado "Vehicle" con funciones que representen los comportamientos básicos de un vehículo, como "acelerar", "frenar", "girar", "cambiar de marcha", etc.
+- Definir una estructura de datos para representar un coche que implemente el trait "Vehicle". Implementar las funciones del trait para que realicen las acciones correspondientes en un coche, como aumentar o disminuir la velocidad, girar el volante y cambiar de marcha.
+- Crear una estructura de datos para representar una motocicleta que también implemente el trait "Vehicle". Implementar las funciones del trait para que realicen las acciones correspondientes en una moto, como aumentar o disminuir la velocidad, inclinarse en las curvas y cambiar de marcha.
+- Definir una estructura de datos para representar un avión que también implemente el trait "Vehicle". Implementar las funciones del trait para que realicen las acciones correspondientes en un avión, como aumentar o disminuir la altitud, cambiar la velocidad y girar.
+- Crear un módulo para la interfaz de usuario que permita al usuario elegir entre diferentes tipos de vehículos y controlarlos utilizando las funciones del trait "Vehicle".
+- Implementar la aplicación utilizando traits e implementaciones de Rust para asegurarse de que el código sea modular y extensible.
+- Escribir pruebas unitarias para asegurarse de que las funciones del trait "Vehicle" funcionen correctamente y que los diferentes tipos de vehículos se comporten según lo esperado.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Añadir nuevas implementaciones del trait "Vehicle" para representar otros tipos de vehículos, como barcos, bicicletas, trenes, etc.
 
 >23 Generic Functions and Types
 
+Crear una aplicación en Rust que utilice funciones y tipos genéricos para procesar diferentes tipos de datos.
+
+- Crear una función genérica llamada "max" que tome dos valores del mismo tipo y devuelva el mayor de ellos.
+- Crear una función genérica llamada "min" que tome dos valores del mismo tipo y devuelva el menor de ellos.
+- Definir una estructura de datos genérica llamada "Stack" que pueda almacenar valores de cualquier tipo. Implementar funciones genéricas para añadir y quitar elementos de la pila, así como para obtener el número de elementos de la pila y comprobar si está vacía.
+- Crear una función genérica llamada "map" que tome un vector y una función de transformación y devuelva un nuevo vector con los elementos transformados. Utilizar la función "map" para crear un nuevo vector de cadenas a partir de un vector de números enteros.
+- Crear una función genérica llamada "filter" que tome un vector y una función de filtro y devuelva un nuevo vector con los elementos que pasan el filtro. Utilizar la función "filter" para crear un nuevo vector de números enteros a partir de un vector que contiene tanto números enteros como cadenas.
+- Utilizar los tipos y funciones genéricas en una aplicación que lea un archivo CSV, procese los datos utilizando las funciones "map" y "filter", y luego escriba los resultados en un nuevo archivo CSV.
+- Escribir pruebas unitarias para asegurarse de que las funciones genéricas funcionen correctamente con diferentes tipos de datos.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
+- Añadir nuevas funciones y tipos genéricos para procesar diferentes tipos de datos y hacer que la aplicación sea más extensible.
+
 >24 Bounds and Constraints
+
+Crear una aplicación en Rust que utilice bounds y constraints para restringir el comportamiento de tipos genéricos.
+
+- Crear una estructura de datos llamada "Point" que represente un punto en un espacio bidimensional. La estructura debe tener dos campos públicos de tipo f32 llamados "x" e "y".
+- Definir un trait llamado "Distance" que tenga un método "distance" que tome dos referencias a objetos de tipo "Point" y devuelva la distancia euclidiana entre ellos como un f32.
+- Implementar el trait "Distance" para la estructura "Point" utilizando la fórmula de distancia euclidiana.
+- Crear una estructura de datos genérica llamada "Shape" que tenga un tipo parámetro "P" que implemente el trait "Distance". La estructura debe tener un campo público de tipo "Vec<P>" que represente los puntos que forman la forma.
+- Definir un trait llamado "Area" que tenga un método "area" que tome una referencia a un objeto de tipo "Shape" y devuelva su área como un f32.
+- Implementar el trait "Area" para la estructura "Shape" utilizando la fórmula de área de un polígono.
+- Crear una función genérica llamada "total_distance" que tome un vector de objetos de tipo "P" que implementen el trait "Distance" y devuelva la distancia total entre ellos.
+- Utilizar los tipos y funciones genéricas en una aplicación que cree un vector de objetos de tipo "Shape" que contengan diferentes polígonos (triángulos, cuadrados, etc.), calcule el área total de los polígonos y la distancia total entre los puntos que forman los polígonos.
+- Utilizar bounds y constraints para restringir el comportamiento de los tipos genéricos, por ejemplo, restringiendo los tipos de datos que pueden implementar el trait "Distance".
+- Escribir pruebas unitarias para asegurarse de que los traits y estructuras funcionen correctamente y cumplan con los bounds y constraints especificados.
+- Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
+- Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 
 >25 Associated Types
 
+Implementación de un contenedor genérico de datos utilizando tipos asociados.
+
+- Definir un trait Container con un tipo asociado Item que represente el tipo de dato que se almacenará en el contenedor.
+- Agregar métodos al trait Container para agregar y eliminar elementos del contenedor.
+- Implementar el trait Container para un tipo de contenedor, como un vector o una lista enlazada.
+- Escribir pruebas para verificar que los métodos add y remove funcionen correctamente.
+- Crear una función genérica que acepte cualquier contenedor que implemente el trait Container y use los métodos add y remove para manipular el contenido del contenedor.
+- Probar la función genérica con diferentes tipos de contenedores que implementen el trait Container.
+
 >26 Iterators
+
+Implementación de un iterador personalizado para recorrer una estructura de datos en Rust.
+
+- Definir una estructura de datos que contenga una colección de elementos que se puedan iterar, por ejemplo, un vector o una lista enlazada.
+- Definir un struct MyIterator que implemente el trait Iterator de Rust.
+- Agregar métodos al struct MyIterator para inicializar el iterador y avanzar al siguiente elemento.
+- Implementar el método next() del trait Iterator en el struct MyIterator para devolver el siguiente elemento de la colección en cada llamada.
+- Crear una función que acepte la estructura de datos como parámetro y devuelva un iterador MyIterator.
+- Usar el iterador personalizado para recorrer la estructura de datos en un ciclo for y realizar alguna operación en cada elemento, como imprimirlo en la consola.
+- Escribir pruebas para verificar que el iterador MyIterator funciona correctamente en diferentes situaciones, como cuando la estructura de datos está vacía o tiene múltiples elementos.
+- Mejorar el iterador personalizado para que se pueda iterar en ambas direcciones, hacia adelante y hacia atrás, si la estructura de datos lo permite.
 
 >27 Early Exit
 
+Implementación de un algoritmo de búsqueda con salida temprana
+
+- Define una estructura de datos que almacene la información que se va a buscar. Por ejemplo, podrías crear una estructura Book con campos como title, author, year, etc.
+- Crea un vector o un arreglo que contenga algunos elementos de la estructura de datos que acabas de definir.
+- Implementa una función de búsqueda que acepte el vector o arreglo como argumento y un parámetro de búsqueda. La función debe iterar sobre los elementos del vector, comparar el valor de búsqueda con los campos relevantes de cada elemento y retornar el primer elemento que coincida con el valor de búsqueda.
+- Utiliza el concepto de early exit para mejorar la eficiencia de la función de búsqueda. Si se encuentra un elemento que coincida con el valor de búsqueda, la función debe retornar inmediatamente en lugar de seguir iterando sobre los demás elementos.
+- Añade pruebas unitarias que comprueben que la función de búsqueda funciona correctamente en diferentes casos, incluyendo casos en los que el valor de búsqueda no se encuentra en el vector o arreglo.
+
 >28 Stacks and Queues
+
+Implementación de una estructura de datos que combine la funcionalidad de una pila (stack) y una cola (queue) en Rust.
+
+- Define una estructura que tenga dos vectores, uno para la pila y otro para la cola.
+- Implementa métodos para agregar elementos a la pila y a la cola.
+- Implementa métodos para eliminar elementos de la pila y de la cola.
+- Implementa métodos para obtener el tamaño de la pila y de la cola.
+- Implementa un método que combine la funcionalidad de ambas estructuras, es decir, que saque elementos de la cola cuando se solicita el siguiente elemento y que saque elementos de la pila cuando se solicita el último elemento.
+- Realiza pruebas exhaustivas de todas las funcionalidades de la estructura de datos.
 
 >29 Trees
 
+Binary Search Tree
+
+Para consolidar el tema de árboles en Rust, se puede implementar un árbol de búsqueda binaria (BST) que permita insertar, eliminar y buscar nodos. Se puede utilizar un struct para representar el árbol y otro struct para representar los nodos. Se pueden utilizar lifetime annotations para garantizar que los nodos no superen la vida útil del árbol. Además, se pueden implementar las siguientes funciones para el árbol:
+
+- Implementar la estructura del árbol y los nodos, incluyendo los lifetime annotations necesarios.
+- Implementar la función insertar que permita agregar un nodo al árbol de manera ordenada.
+- Implementar la función eliminar que permita borrar un nodo del árbol.
+- Implementar la función buscar que permita buscar un nodo en el árbol.
+- Implementar la función recorrer_inorden que permita recorrer el árbol en orden ascendente.
+- Implementar la función recorrer_preorden que permita recorrer el árbol en preorden.
+- Implementar la función recorrer_postorden que permita recorrer el árbol en postorden.
+- Implementar pruebas unitarias para asegurar que las funciones del árbol funcionen correctamente.
+- Se puede considerar la implementación de una función para graficar el árbol y visualizar su estructura.
+
 >30 Graphs
+
+Grafo de Redes Sociales, crear un programa que implemente un grafo de redes sociales.
+
+- Define la estructura del grafo: Crea una estructura para representar un grafo de redes sociales, donde los nodos sean los usuarios y las aristas sean las relaciones entre ellos (por ejemplo, "amigo de", "sigue a", "conectado con"). Define una estructura de usuario que almacene información relevante, como nombre, edad, ubicación, intereses, etc.
+- Implementa las funciones básicas del grafo: Crea funciones para agregar nodos y aristas al grafo, para eliminar nodos y aristas del grafo, y para buscar nodos y aristas en el grafo.
+- Crea algoritmos para procesar el grafo: Implementa algoritmos para recorrer el grafo, como el recorrido en profundidad (DFS) o el recorrido en amplitud (BFS). También puedes implementar algoritmos para buscar caminos entre nodos, para encontrar ciclos en el grafo, para calcular el grado de los nodos, para determinar si el grafo es conexo, entre otros.
+- Crea una interfaz de usuario: Diseña una interfaz de usuario que permita al usuario interactuar con el grafo. Por ejemplo, puedes crear un menú que permita agregar o eliminar usuarios y relaciones, buscar usuarios, calcular el grado de un usuario, mostrar el camino más corto entre dos usuarios, etc.
+- Prueba y depura: Prueba tu programa con diferentes casos de prueba y asegúrate de que se comporta de manera correcta. Identifica y corrige cualquier error o problema que encuentres.
+- Agrega funcionalidades extra: Si lo deseas, puedes agregar funcionalidades extra al programa, como la visualización del grafo, la importación de datos de redes sociales reales, la implementación de algoritmos de recomendación de amigos, entre otros.
 
 >31 Recursive Algorithms
 
+Desarrolla un programa en Rust que utilice un algoritmo recursivo para buscar una solución óptima a un problema específico.
+
+- Elige un problema que se pueda resolver mediante un algoritmo recursivo. Algunos ejemplos pueden ser el cálculo del factorial de un número, la generación de todas las combinaciones posibles de un conjunto de elementos, o la resolución de un laberinto.
+- Define la estructura de datos necesaria para representar el problema y sus posibles soluciones. Por ejemplo, si estás resolviendo un laberinto, podrías usar una matriz para representar el laberinto y una lista para llevar un registro de los movimientos realizados.
+- Implementa una función recursiva que explore todas las posibles soluciones al problema. Esta función debería recibir como parámetros los datos necesarios para representar el problema y devolver la solución óptima.
+- Utiliza pruebas unitarias para verificar que tu función recursiva funciona correctamente y devuelve los resultados esperados para diferentes entradas.
+- Si lo deseas, puedes mejorar la eficiencia de tu algoritmo utilizando técnicas como la memorización o la poda.
+- Documenta tu código y compártelo con otros programadores para recibir retroalimentación y mejorar tus habilidades en Rust.
+
 >32 Backtracking Basics
+
+Implementar un algoritmo de backtracking en Rust para encontrar todas las soluciones factibles para un problema dado.
+
+- Elija un problema adecuado para aplicar el algoritmo de backtracking, como el problema de las n reinas o el problema de la mochila.
+- Crea una estructura para representar una solución parcial del problema.
+- Implementar una función que determine si una solución parcial es factible o no.
+- Implementar una función que determine si una solución parcial es una solución completa del problema.
+- Implementar una función que genere las posibles extensiones de una solución parcial.
+- Implementar la función de backtracking que busca recursivamente todas las soluciones factibles del problema.
+- Prueba el algoritmo con diferentes instancias del problema y verifica que encuentre todas las soluciones factibles.
+- Si es posible, optimice el algoritmo para mejorar su eficiencia.
 
 >33 Backtracking in Rust
 
+Implementar un algoritmo de backtracking en Rust para resolver el problema de las N reinas.
+
+- Aprender sobre el problema de las N reinas y su solución con backtracking.
+- Crear un módulo queens para el proyecto.
+- Definir una estructura Queens que represente el tablero de ajedrez y las posiciones de las reinas.
+- Implementar un método new en la estructura Queens que tome como argumento el número de reinas a colocar y cree un tablero vacío.
+- Implementar un método solve en la estructura Queens que use backtracking para encontrar una solución al problema de las N reinas.
+- Definir una función print_solution que tome como argumento un tablero de ajedrez y muestre la posición de las reinas en la consola.
+- Agregar pruebas unitarias para verificar que la solución encontrada es válida.
+- Agregar un ejemplo de uso del módulo queens en el archivo principal del proyecto.
+
 >34 Memoization
+
+Implementación de una función de memoización en Rust
+
+- Comprender el concepto de memoización y cómo se puede utilizar para mejorar la eficiencia de las funciones recursivas.
+- Implementar una función recursiva simple, como la función de Fibonacci, sin memoización y medir su tiempo de ejecución.
+- Implementar la misma función de Fibonacci, pero esta vez utilizando memoización. Se puede utilizar un HashMap para almacenar los resultados anteriores de la función.
+Medir el tiempo de ejecución de la función de Fibonacci memoizada y compararla con la función sin memoización.
+Ampliar la funcionalidad de la función memoizada para que pueda ser utilizada en cualquier función recursiva.
+Probar la función memoizada con otras funciones recursivas y medir el tiempo de ejecución con y sin memoización.
+Refactorizar el código y hacer mejoras en la implementación de la función memoizada, como utilizar una estructura de datos diferente para almacenar los resultados anteriores de la función.
+Documentar la función memoizada y explicar cómo se puede utilizar en cualquier función recursiva en Rust.
 
 >35 Tabulation
 
