@@ -11,7 +11,7 @@ Crear un programa en Rust que permita al usuario ingresar dos números enteros y
 - Repetir los pasos 2 a 4 para el segundo número ingresado por el usuario.
 - Realizar las operaciones de suma, resta, multiplicación y división utilizando los operadores "+" "-" "*" "/" y almacenar los resultados en variables separadas.
 - Utilizar la función "println!" para mostrar los resultados de las operaciones en pantalla.
-
+---
 >2 Data Types
 
 Crear un programa en Rust que permita al usuario ingresar su información personal, como su nombre, edad, estatura y peso, y luego muestre en pantalla un resumen de la misma.
@@ -23,7 +23,7 @@ Crear un programa en Rust que permita al usuario ingresar su información person
 - Repetir los pasos 2 a 4 para la edad, estatura y peso del usuario.
 - Crear una instancia de la estructura definida en el paso 1 utilizando los valores ingresados por el usuario.
 - Utilizar la función "println!" para mostrar un resumen de la información ingresada por el usuario, utilizando los valores de los campos de la estructura creada en el paso 6.
-
+---
 >3 Operators
 
 Crear un programa en Rust que permita al usuario ingresar un número entero y luego muestre en pantalla si dicho número es par o impar.
@@ -33,7 +33,7 @@ Crear un programa en Rust que permita al usuario ingresar un número entero y lu
 - Convertir el valor ingresado por el usuario a un número entero utilizando la función "parse()" de Rust.
 - Utilizar el operador módulo "%" para determinar si el número ingresado por el usuario es par o impar. Si el resultado de la operación es cero, el número es par. De lo contrario, es impar.
 - Utilizar la función "println!" para mostrar en pantalla si el número es par o impar.
-
+---
 >4 Conditional Expressions
 
 Crear un programa en Rust que permita al usuario ingresar su edad y luego muestre en pantalla si es mayor de edad o no.
@@ -43,7 +43,7 @@ Crear un programa en Rust que permita al usuario ingresar su edad y luego muestr
 - Convertir el valor ingresado por el usuario a un número entero utilizando la función "parse()" de Rust.
 - Utilizar una expresión condicional en Rust para determinar si la edad ingresada por el usuario es mayor o igual a 18 años.
 - Si la edad es mayor o igual a 18 años, mostrar un mensaje en pantalla indicando que el usuario es mayor de edad. De lo contrario, mostrar un mensaje en pantalla indicando que el usuario es menor de edad.
-
+---
 >5 Loops
 
 Crear un programa en Rust que permita al usuario ingresar un número entero y luego muestre en pantalla la tabla de multiplicar de dicho número del 1 al 10 utilizando un bucle while.
@@ -53,7 +53,7 @@ Crear un programa en Rust que permita al usuario ingresar un número entero y lu
 - Convertir el valor ingresado por el usuario a un número entero utilizando la función "parse()" de Rust.
 - Utilizar un bucle while en Rust para calcular los primeros 10 múltiplos del número ingresado por el usuario.
 - En cada iteración del bucle, calcular el resultado de multiplicar el número ingresado por el valor del contador del bucle y mostrar el resultado en pantalla utilizando la función "println!".
-
+---
 >6 Boolean
 
 Crear un programa en Rust que permita al usuario ingresar dos valores booleanos y luego muestre en pantalla el resultado de aplicar los operadores lógicos AND, OR y NOT entre ambos valores.
@@ -63,7 +63,7 @@ Crear un programa en Rust que permita al usuario ingresar dos valores booleanos 
 - Convertir los valores ingresados por el usuario a valores booleanos utilizando la función "parse()" de Rust.
 - Utilizar los operadores lógicos "&&" (AND), "||" (OR) y "!" (NOT) para calcular los resultados de las operaciones lógicas entre los valores ingresados por el usuario.
 - Utilizar la función "println!" para mostrar en pantalla el resultado de cada operación lógica.
-
+---
 >7 Strings
 
 Crear un programa en Rust que permita al usuario ingresar una cadena de texto y luego muestre en pantalla la misma cadena de texto pero con las palabras invertidas.
@@ -73,7 +73,7 @@ Crear un programa en Rust que permita al usuario ingresar una cadena de texto y 
 - Utilizar la función "split_whitespace()" para dividir la cadena de texto ingresada por el usuario en palabras individuales.
 - Utilizar la función "rev()" para invertir el orden de las palabras obtenidas en el paso anterior.
 - Unir las palabras invertidas en una sola cadena de texto utilizando la función "join()" y mostrar el resultado en pantalla utilizando la función "println!".
-
+---
 >8 Vectors, Arrays and Slices
 
 Crear un programa en Rust que permita al usuario ingresar una lista de números separados por comas y luego muestre en pantalla la suma de los números ingresados y su promedio.
@@ -86,7 +86,7 @@ Crear un programa en Rust que permita al usuario ingresar una lista de números 
 - Utilizar la función "iter()" para iterar sobre los elementos del vector y calcular la suma de los mismos.
 - Calcular el promedio de los números ingresados dividiendo la suma obtenida en el paso anterior por la cantidad de elementos del vector.
 - Utilizar la función "println!" para mostrar en pantalla la suma y el promedio obtenidos.
-
+---
 >9 Enums
 
 Crear un programa en Rust que simule una tienda en línea y utilice enums para representar los diferentes tipos de productos disponibles.
@@ -98,7 +98,7 @@ Crear un programa en Rust que simule una tienda en línea y utilice enums para r
 - Crear una función que muestre en pantalla todos los productos disponibles, indicando su nombre, precio y tipo.
 - Permitir al usuario seleccionar un tipo de producto y mostrar en pantalla solo los productos que corresponden a ese tipo.
 - Permitir al usuario seleccionar un rango de precios y mostrar en pantalla solo los productos cuyo precio esté dentro de ese rango.
-
+---
 >10 Mutable Variables
 
 Crear un programa en Rust que permita al usuario ingresar una lista de números y luego calcule la suma, el promedio y el máximo de los números ingresados, utilizando variables mutables.
@@ -110,7 +110,7 @@ Crear un programa en Rust que permita al usuario ingresar una lista de números 
 - Utilizar otra variable mutable para calcular el promedio de los números en el vector, dividiendo la suma total por la cantidad de números en el vector.
 - Utilizar una tercera variable mutable para encontrar el número máximo en el vector.
 - Mostrar en pantalla la suma, el promedio y el máximo de los números ingresados por el usuario.
-
+---
 >11 Structs and Tuples
 
 Crear un programa en Rust que permita al usuario ingresar información de diferentes personas, almacenando esta información en una estructura (struct) y una tupla (tuple). Luego, el programa debe imprimir en pantalla la información de cada persona ingresada.
@@ -122,7 +122,7 @@ Crear un programa en Rust que permita al usuario ingresar información de difere
 - Después de que el usuario haya terminado de ingresar información de personas, almacenar cada instancia de Persona y PersonaTupla en el vector creado en el paso 3.
 - Crear un loop que recorra el vector de personas y, para cada instancia de Persona y PersonaTupla, imprimir en pantalla la información de cada persona ingresada.
 - Utilizar las macros de formato de Rust (por ejemplo, println!) para imprimir la información de cada persona en el formato deseado.
-
+---
 >12 Ownership Rules
 
 Implementación de una lista enlazada en Rust siguiendo las reglas de propiedad
@@ -132,7 +132,7 @@ Implementación de una lista enlazada en Rust siguiendo las reglas de propiedad
 - Implemente los métodos push y pop para la estructura LinkedList. En el método push, debe crear un nuevo LinkedListNode con el valor dado y agregarlo al final de la lista. En el método pop, debe eliminar el último nodo de la lista y devolver su valor.
 - Asegúrese de seguir las reglas de propiedad de Rust en todo momento, como evitar aliasing mutable y garantizar la exclusividad de las referencias mutables.
 - Cree pruebas para verificar que su lista enlazada funcione correctamente y siga las reglas de propiedad de Rust.
-
+---
 >13 Borrowing and References
 
 Implementar un árbol binario de búsqueda en Rust utilizando borrowing y references para evitar la necesidad de utilizar owned values.
@@ -143,7 +143,7 @@ Implementar un árbol binario de búsqueda en Rust utilizando borrowing y refere
 - Escribir pruebas unitarias para asegurarse de que el árbol binario de búsqueda funciona correctamente y que no hay problemas de ownership.
 - Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
-
+---
 >14 Lifetimes
 
 Implementar una aplicación de chat en línea en Rust que utilice lifetimes para gestionar la vida útil de las conexiones de red.
@@ -156,7 +156,7 @@ Implementar una aplicación de chat en línea en Rust que utilice lifetimes para
 - Escribir pruebas unitarias para asegurarse de que el servidor y el cliente de chat funcionan correctamente y que no hay problemas con las referencias.
 - Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
-
+---
 >15 References
 
 Implementar un programa de procesamiento de imágenes en Rust que utilice references para evitar la necesidad de copiar datos de imagen.
@@ -170,7 +170,7 @@ Implementar un programa de procesamiento de imágenes en Rust que utilice refere
 - Implementar una interfaz de línea de comandos para permitir a los usuarios cargar y guardar imágenes y aplicar operaciones de procesamiento de imágenes.
 - Utilizar referencias para evitar la copia de datos de imagen en la interfaz de línea de comandos y asegurarse de que las referencias se gestionen correctamente.
 - Añadir opciones de configuración para permitir a los usuarios especificar el formato de archivo de entrada y salida, así como los parámetros de procesamiento de imágenes.
-
+---
 >16 Methods
 
 Implementar una biblioteca de matrices en Rust que utilice methods para realizar operaciones matemáticas.
@@ -183,7 +183,7 @@ Implementar una biblioteca de matrices en Rust que utilice methods para realizar
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 - Implementar una interfaz de usuario para permitir a los usuarios crear y manipular matrices utilizando los métodos implementados en la biblioteca.
 - Utilizar métodos para realizar operaciones matemáticas en matrices en la interfaz de usuario y asegurarse de que los métodos se gestionen correctamente.
-
+---
 >17 Modules
 
 Crear una aplicación de línea de comandos en Rust para gestionar una lista de tareas que utilice módulos para organizar el código.
@@ -197,7 +197,7 @@ Crear una aplicación de línea de comandos en Rust para gestionar una lista de 
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 - Añadir opciones de configuración para permitir a los usuarios especificar la ubicación del archivo de la lista de tareas y el formato de salida de la lista de tareas.
 - Utilizar módulos para organizar el código de la aplicación de línea de comandos y asegurarse de que los módulos se gestionen correctamente.
-
+---
 >18 Stack vs. Heap
 
 Implementar una aplicación de procesamiento de imágenes en Rust que demuestre la diferencia entre el uso de la pila (stack) y el montón (heap) para almacenar datos de imagen.
@@ -211,7 +211,7 @@ Implementar una aplicación de procesamiento de imágenes en Rust que demuestre 
 - Implementar una interfaz de usuario para permitir a los usuarios cargar, procesar y guardar imágenes utilizando la aplicación de procesamiento de imágenes.
 - Utilizar tanto la pila como el montón para almacenar los datos de la imagen en la interfaz de usuario y asegurarse de que la aplicación gestione correctamente la asignación de memoria en la pila y el montón.
 - Comparar la velocidad y el uso de memoria de la pila y el montón para almacenar datos de imagen y proporcionar información al usuario sobre cuál opción es la mejor para su caso de uso.
-
+---
 >19 Ownership and Borrowing
 
 Crear una aplicación de gestión de inventario en Rust que demuestre el uso de la propiedad (ownership) y préstamos (borrowing) para gestionar los datos.
@@ -226,7 +226,7 @@ Crear una aplicación de gestión de inventario en Rust que demuestre el uso de 
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 - Añadir opciones de configuración para permitir a los usuarios especificar la ubicación del archivo de inventario y el formato de salida de la lista de artículos.
 - Utilizar los conceptos de propiedad y préstamo de Rust para gestionar los datos en la interfaz de usuario y asegurarse de que la aplicación gestione correctamente la asignación y liberación de memoria.
-
+---
 >20 Lifetime Annotations
 
 Crear un programa en Rust que demuestre el uso de las anotaciones de tiempo de vida (lifetime annotations) para gestionar correctamente la duración de los datos.
@@ -241,7 +241,7 @@ Crear un programa en Rust que demuestre el uso de las anotaciones de tiempo de v
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 - Añadir opciones de configuración para permitir a los usuarios especificar el número de nodos en el árbol y el rango de valores posibles para los nodos.
 - Utilizar las anotaciones de tiempo de vida de Rust para gestionar la duración de los datos en la interfaz de usuario y asegurarse de que la aplicación gestione correctamente la asignación y liberación de memoria.
-
+---
 >21 Memory Safety
 
 Crear un programa en Rust que demuestre el uso de las características de seguridad de memoria de Rust para prevenir errores comunes de programación.
@@ -256,7 +256,7 @@ Crear un programa en Rust que demuestre el uso de las características de seguri
 - Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 - Añadir opciones de configuración para permitir a los usuarios especificar el tamaño del tablero y el número de jugadores. Utilizar las características de seguridad de memoria de Rust para asegurarse de que la aplicación gestione correctamente la asignación y liberación de memoria.
-
+---
 >22 Traits and Implementations
 
 Crear una aplicación en Rust que utilice traits e implementaciones para definir diferentes tipos de vehículos y sus comportamientos.
@@ -271,7 +271,7 @@ Crear una aplicación en Rust que utilice traits e implementaciones para definir
 - Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 - Añadir nuevas implementaciones del trait "Vehicle" para representar otros tipos de vehículos, como barcos, bicicletas, trenes, etc.
-
+---
 >23 Generic Functions and Types
 
 Crear una aplicación en Rust que utilice funciones y tipos genéricos para procesar diferentes tipos de datos.
@@ -286,7 +286,7 @@ Crear una aplicación en Rust que utilice funciones y tipos genéricos para proc
 - Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
 - Añadir nuevas funciones y tipos genéricos para procesar diferentes tipos de datos y hacer que la aplicación sea más extensible.
-
+---
 >24 Bounds and Constraints
 
 Crear una aplicación en Rust que utilice bounds y constraints para restringir el comportamiento de tipos genéricos.
@@ -303,7 +303,7 @@ Crear una aplicación en Rust que utilice bounds y constraints para restringir e
 - Escribir pruebas unitarias para asegurarse de que los traits y estructuras funcionen correctamente y cumplan con los bounds y constraints especificados.
 - Utilizar la herramienta Rustfmt para formatear el código según las convenciones de estilo de Rust.
 - Documentar el código utilizando el formato de documentación de Rust (Rustdoc) para que otros programadores puedan entender el código y utilizarlo en sus propios proyectos.
-
+---
 >25 Associated Types
 
 Implementación de un contenedor genérico de datos utilizando tipos asociados.
@@ -314,7 +314,7 @@ Implementación de un contenedor genérico de datos utilizando tipos asociados.
 - Escribir pruebas para verificar que los métodos add y remove funcionen correctamente.
 - Crear una función genérica que acepte cualquier contenedor que implemente el trait Container y use los métodos add y remove para manipular el contenido del contenedor.
 - Probar la función genérica con diferentes tipos de contenedores que implementen el trait Container.
-
+---
 >26 Iterators
 
 Implementación de un iterador personalizado para recorrer una estructura de datos en Rust.
@@ -327,7 +327,7 @@ Implementación de un iterador personalizado para recorrer una estructura de dat
 - Usar el iterador personalizado para recorrer la estructura de datos en un ciclo for y realizar alguna operación en cada elemento, como imprimirlo en la consola.
 - Escribir pruebas para verificar que el iterador MyIterator funciona correctamente en diferentes situaciones, como cuando la estructura de datos está vacía o tiene múltiples elementos.
 - Mejorar el iterador personalizado para que se pueda iterar en ambas direcciones, hacia adelante y hacia atrás, si la estructura de datos lo permite.
-
+---
 >27 Early Exit
 
 Implementación de un algoritmo de búsqueda con salida temprana
@@ -337,7 +337,7 @@ Implementación de un algoritmo de búsqueda con salida temprana
 - Implementa una función de búsqueda que acepte el vector o arreglo como argumento y un parámetro de búsqueda. La función debe iterar sobre los elementos del vector, comparar el valor de búsqueda con los campos relevantes de cada elemento y retornar el primer elemento que coincida con el valor de búsqueda.
 - Utiliza el concepto de early exit para mejorar la eficiencia de la función de búsqueda. Si se encuentra un elemento que coincida con el valor de búsqueda, la función debe retornar inmediatamente en lugar de seguir iterando sobre los demás elementos.
 - Añade pruebas unitarias que comprueben que la función de búsqueda funciona correctamente en diferentes casos, incluyendo casos en los que el valor de búsqueda no se encuentra en el vector o arreglo.
-
+---
 >28 Stacks and Queues
 
 Implementación de una estructura de datos que combine la funcionalidad de una pila (stack) y una cola (queue) en Rust.
@@ -348,7 +348,7 @@ Implementación de una estructura de datos que combine la funcionalidad de una p
 - Implementa métodos para obtener el tamaño de la pila y de la cola.
 - Implementa un método que combine la funcionalidad de ambas estructuras, es decir, que saque elementos de la cola cuando se solicita el siguiente elemento y que saque elementos de la pila cuando se solicita el último elemento.
 - Realiza pruebas exhaustivas de todas las funcionalidades de la estructura de datos.
-
+---
 >29 Trees
 
 Binary Search Tree
@@ -364,7 +364,7 @@ Para consolidar el tema de árboles en Rust, se puede implementar un árbol de b
 - Implementar la función recorrer_postorden que permita recorrer el árbol en postorden.
 - Implementar pruebas unitarias para asegurar que las funciones del árbol funcionen correctamente.
 - Se puede considerar la implementación de una función para graficar el árbol y visualizar su estructura.
-
+---
 >30 Graphs
 
 Grafo de Redes Sociales, crear un programa que implemente un grafo de redes sociales.
@@ -375,7 +375,7 @@ Grafo de Redes Sociales, crear un programa que implemente un grafo de redes soci
 - Crea una interfaz de usuario: Diseña una interfaz de usuario que permita al usuario interactuar con el grafo. Por ejemplo, puedes crear un menú que permita agregar o eliminar usuarios y relaciones, buscar usuarios, calcular el grado de un usuario, mostrar el camino más corto entre dos usuarios, etc.
 - Prueba y depura: Prueba tu programa con diferentes casos de prueba y asegúrate de que se comporta de manera correcta. Identifica y corrige cualquier error o problema que encuentres.
 - Agrega funcionalidades extra: Si lo deseas, puedes agregar funcionalidades extra al programa, como la visualización del grafo, la importación de datos de redes sociales reales, la implementación de algoritmos de recomendación de amigos, entre otros.
-
+---
 >31 Recursive Algorithms
 
 Desarrolla un programa en Rust que utilice un algoritmo recursivo para buscar una solución óptima a un problema específico.
@@ -386,7 +386,7 @@ Desarrolla un programa en Rust que utilice un algoritmo recursivo para buscar un
 - Utiliza pruebas unitarias para verificar que tu función recursiva funciona correctamente y devuelve los resultados esperados para diferentes entradas.
 - Si lo deseas, puedes mejorar la eficiencia de tu algoritmo utilizando técnicas como la memorización o la poda.
 - Documenta tu código y compártelo con otros programadores para recibir retroalimentación y mejorar tus habilidades en Rust.
-
+---
 >32 Backtracking Basics
 
 Implementar un algoritmo de backtracking en Rust para encontrar todas las soluciones factibles para un problema dado.
@@ -399,7 +399,7 @@ Implementar un algoritmo de backtracking en Rust para encontrar todas las soluci
 - Implementar la función de backtracking que busca recursivamente todas las soluciones factibles del problema.
 - Prueba el algoritmo con diferentes instancias del problema y verifica que encuentre todas las soluciones factibles.
 - Si es posible, optimice el algoritmo para mejorar su eficiencia.
-
+---
 >33 Backtracking in Rust
 
 Implementar un algoritmo de backtracking en Rust para resolver el problema de las N reinas.
@@ -412,7 +412,7 @@ Implementar un algoritmo de backtracking en Rust para resolver el problema de la
 - Definir una función print_solution que tome como argumento un tablero de ajedrez y muestre la posición de las reinas en la consola.
 - Agregar pruebas unitarias para verificar que la solución encontrada es válida.
 - Agregar un ejemplo de uso del módulo queens en el archivo principal del proyecto.
-
+---
 >34 Memoization
 
 Implementación de una función de memoización en Rust
@@ -425,7 +425,7 @@ Ampliar la funcionalidad de la función memoizada para que pueda ser utilizada e
 Probar la función memoizada con otras funciones recursivas y medir el tiempo de ejecución con y sin memoización.
 Refactorizar el código y hacer mejoras en la implementación de la función memoizada, como utilizar una estructura de datos diferente para almacenar los resultados anteriores de la función.
 Documentar la función memoizada y explicar cómo se puede utilizar en cualquier función recursiva en Rust.
-
+---
 >35 Tabulation
 
 Crear un programa que utilice el método de tabulación para resolver un problema de programación dinámica. El problema puede ser elegido por ti, pero es recomendable comenzar con uno sencillo como el problema de la mochila o el cálculo de números de Fibonacci.
@@ -438,7 +438,7 @@ Crear un programa que utilice el método de tabulación para resolver un problem
 - Prueba tu programa con diferentes entradas y verifica que se comporta correctamente.
 - Agrega documentación y comentarios a tu código para que sea fácil de entender y utilizar para otros desarrolladores.
 - Si te sientes cómodo, considera publicar tu proyecto en un repositorio en línea para que otros puedan aprender de él y contribuir con mejoras.
-
+---
 >36 Creating a New Project
 
 Crear una aplicación de línea de comandos para manejar tareas.
@@ -451,7 +451,7 @@ Crear una aplicación de línea de comandos para manejar tareas.
 - Crea una función para mostrar solo las tareas que vencen en un determinado período de tiempo (por ejemplo, próximos 7 días).
 - Implementa la entrada y salida de datos de la aplicación de línea de comandos.
 - Prueba la aplicación con algunos datos de muestra para verificar su funcionamiento.
-
+---
 >37 Building and Running
 
 Crear una aplicación de línea de comandos que solicite al usuario una cadena de texto y un número entero, y luego genere un nuevo texto que contenga el texto original repetido el número de veces especificado.
@@ -462,7 +462,7 @@ Crear una aplicación de línea de comandos que solicite al usuario una cadena d
 - Escribir una función que tome la entrada del usuario y devuelva una cadena de texto que contenga la cadena original repetida el número de veces especificado.
 - Imprimir el resultado en la consola utilizando la biblioteca std::io.
 - Compilar el proyecto y ejecutar la aplicación resultante en la línea de comandos.
-
+---
 >38 Publishing and Sharing
 
 Publishing a Rust crate to crates.io
@@ -476,7 +476,7 @@ Publishing a Rust crate to crates.io
 - Ejecuta cargo publish para publicar tu crate en crates.io.
 - Para actualizar tu crate, repite los pasos 2 a 7 con el código actualizado.
 - Puedes encontrar tu crate publicado en https://crates.io/crates/my_crate.
-
+---
 >39 Connecting to Databases in Rust
 
 Crear una aplicación de lista de tareas que se conecte a una base de datos SQLite usando Rust.
@@ -489,7 +489,7 @@ Implemente una API RESTful para acceder a las tareas utilizando un framework web
 - Agregue funcionalidades adicionales, como filtrado de tareas por fecha, búsqueda de tareas por palabra clave, etc.
 - Implemente la autenticación de usuario y autorización para proteger las tareas de usuarios no autorizados.
 - Despliegue la aplicación en línea usando un proveedor de servicios en la nube como Heroku o AWS.
-
+---
 >40 Web Servers
 
 Desarrollo de un servidor web básico en Rust.
@@ -501,7 +501,7 @@ Desarrollo de un servidor web básico en Rust.
 - Agrega pruebas unitarias y de integración para validar el comportamiento de tu servidor web en diferentes situaciones, incluyendo casos exitosos y casos de error.
 - Ejecuta tu servidor web y realiza algunas solicitudes HTTP utilizando una herramienta como curl o un cliente web. Verifica que tu servidor web responda correctamente a las solicitudes y maneje adecuadamente los errores.
 - Documenta tu servidor web y su funcionalidad en un archivo README. Incluye instrucciones para configurar y ejecutar el servidor web, así como ejemplos de cómo realizar solicitudes HTTP válidas a través de él.
-
+---
 >41 Building a Backend in Rust
 
 Crea un backend en Rust que permita a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en una base de datos SQLite. La aplicación web debe tener una interfaz de usuario simple para que los usuarios puedan interactuar con la base de datos.
@@ -515,7 +515,7 @@ Crea un backend en Rust que permita a los usuarios realizar operaciones CRUD (Cr
 - Prueba exhaustivamente tu aplicación web backend para asegurarte de que todo funciona como se espera.
 - Implementa una capa de autenticación y seguridad para proteger tu aplicación web de ataques.
 - Despliega tu aplicación web en un servidor de producción utilizando herramientas como Docker y Kubernetes.
-
+---
 >42 Web Frameworks
 
 Crear una aplicación web usando el framework web Rocket para Rust que permita a los usuarios buscar y visualizar información de películas. La aplicación debe consumir una API externa que proporciona información sobre películas y mostrar los resultados de la búsqueda al usuario. Además, debe permitir al usuario hacer clic en una película para ver más detalles.
@@ -530,7 +530,7 @@ Crear una aplicación web usando el framework web Rocket para Rust que permita a
 - Estilizar la aplicación web utilizando CSS para que tenga un aspecto profesional y atractivo.
 - Asegurarse de que la aplicación maneje correctamente cualquier error que pueda ocurrir al interactuar con la API externa.
 - Ejecutar y probar la aplicación para asegurarse de que funciona correctamente y se ve bien.
-
+---
 >43 Integrating with a Rust Backend
 
 Crear una aplicación web usando Rust y un framework web de su elección que permita a los usuarios realizar operaciones CRUD (crear, leer, actualizar, eliminar) en una base de datos SQLite. La aplicación debe tener una interfaz de usuario simple que permita al usuario interactuar con la base de datos y mostrar los resultados de las operaciones realizadas.
@@ -542,3 +542,4 @@ Crear una aplicación web usando Rust y un framework web de su elección que per
 - Crear las vistas HTML y CSS necesarias para mostrar la información en la aplicación web. Puede usar un paquete de Rust como horrorshow para generar las vistas dinámicamente en el servidor.
 - Integrar las vistas con las rutas creadas en el paso 4 para permitir que el usuario realice operaciones CRUD en la base de datos a través de la aplicación web.
 - Ejecutar la aplicación y probarla para asegurarse de que funcione correctamente. Asegúrate de manejar correctamente los posibles errores que puedan ocurrir al interactuar con la base de datos.
+---
